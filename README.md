@@ -30,15 +30,6 @@ Live demo: **[https://my-car.if.ua](https://my-car.if.ua)**
 - Update payment credentials
 - Review user-submitted service orders
 
-## 🖼️ UI Screenshots
-
-> <div style="display: flex, flex-wrap: wrap">
-> <img src="./images/service_cars.png"  width="45%"/>
-> <img src="./images/service_cars2.png" width="45%"/>
-> <img src="./images/admin.png" width="45%"/>
-> <img src="./images/user.png" width="45%"/>
-> </div>
-
 ## 👨‍💻 Tech Stack
 
 ### Frontend
