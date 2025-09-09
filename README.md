@@ -85,3 +85,12 @@ Payment and tariff switching logic is fully implemented, but disabled in the cur
         <img src="./screenshots/6.jpg" width="45%">
     </div>
 </div>
+
+---
+
+## ⚠️ License / Usage
+>This repository contains a **public demo version** of the MY-CAR project for **portfolio and educational purposes only**.  
+
+❌ **You are not allowed to use, copy, redistribute, or deploy this code for commercial or personal projects**.  
+
+For full functionality, visit the live site: [https://my-car.if.ua](https://my-car.if.ua).
