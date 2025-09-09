@@ -1,0 +1,835 @@
+{
+    "navigation": {
+        "home": "Home",
+        "service": "Service",
+        "contact": "Contact",
+        "about": "About",
+        "registration": "Registration",
+        "lang": "Lang",
+        "theme": {
+            "light": "Light",
+            "dark": "Dark"
+        }
+    },
+    "pages": {
+        "home": {
+            "header": {
+                "h1": "Simple tracking of your car's repairs!",
+                "h3": "Keep a record of your vehicle's repairs simply and conveniently. Track every step of the service.",
+                "button": "Start now"
+            },
+            "contentText": {
+                "h4": "What is MY-CAR",
+                "p": "MY-CAR is a convenient online service for tracking repairs and maintenance of your car. Every car owner can keep a detailed history of expenses: when and what repairs were done, what parts were installed, how much it cost, and more. After registration, you'll get access to your personal account and the service page, where you can:",
+                "ul": {
+                    "li1": "Create records of repairs, part replacements, and maintenance;",
+                    "li2": "Specify brands, mileage, dates, and costs;",
+                    "li3": "Automatically calculate the total amount of expenses;",
+                    "li4": "Choose one of three plans according to your needs;",
+                    "li5": "Edit personal data, change your password, or completely delete your account along with all data."
+                },
+                "p2": "This website is designed to help you keep your car's condition under control, plan expenses, and have all important information at your fingertips — without paper notes or forgetfulness."
+            },
+            "sectionInfoPay": {
+                "h2": "Service Plans",
+                "p": "Choose the plan that best suits your needs."
+            },
+            "cardInfoPayBasses": {
+                "h4": "Basic",
+                "p": "The tariff provides access to basic features but allows you to create a record for only one vehicle.",
+                "price": "$/mo"
+            },
+            "cardInfoPayFamily": {
+                "h4": "Family",
+                "p": "The tariff allows you to create records for up to 5 vehicles, includes basic statistics and reports, without ads.",
+                "price": "$/mo"
+            },
+            "cardInfoPayBusiness": {
+                "h4": "Business",
+                "p": "The tariff provides an unlimited number of vehicles, access to all features, advanced statistics, priority support, and no ads.",
+                "price": "$/mo"
+            }
+        },
+        "about": {
+            "header": {
+                "h1": "Your Reliable Assistant",
+                "h3": "I believe in quality and innovation. I create websites that help manage various processes easily and conveniently."
+            },
+            "containerText": {
+                "h2": "About Me",
+                "p": "I am a frontend developer who aims not just to create interfaces, but to build complete web applications from scratch. In my work, I use modern technologies and approaches to ensure high performance, usability, and reliability. My goal is to build not just websites, but tools that solve real user problems.",
+                "p2": "My-Car is a demo project for my portfolio that showcases my skills in developing modern web applications from the ground up. The site includes both frontend and backend parts, with features for user registration and authentication, data and tariff management, a convenient admin panel, multilingual support, and the ability to switch between dark and light themes for user comfort.",
+                "list": {
+                    "title": "Key Features:",
+                    "li1": "User registration and login;",
+                    "li2": "Personal account with data editing, deletion, and tariff change options;",
+                    "li3": "Access to the service page for vehicle data tracking;",
+                    "li4": "Multilingual support (localization);",
+                    "li5": {
+                        "title": "Admin panel for:",
+                        "li1": "Viewing and managing orders (automatic tariff change after payment confirmation);",
+                        "li2": "Changing tariff prices;",
+                        "li3": "Managing advertisement blocks;",
+                        "li4": "Blocking payments and explaining temporary restrictions;",
+                        "li5": "Updating payment details;",
+                        "li6": "Viewing statistics;",
+                        "li7": "Viewing user list, their tariffs and expiration dates."
+                    }
+                },
+                "technology": {
+                    "title": "Used Technologies",
+                    "frontend": {
+                        "title": "Frontend:",
+                        "li1": "Used React to build the UI.",
+                        "li2": "Redux Toolkit — for global state management.",
+                        "li3": "React Router DOM — for navigation between pages.",
+                        "li4": "React Hook Form — for user-friendly form handling.",
+                        "li5": "i18next — implemented multilingual support.",
+                        "li6": "Helmet Async — enhanced SEO with metadata.",
+                        "li7": "Styled-components — for component-level styling.",
+                        "li8": "Vite — for fast development and build process."
+                    },
+                    "backend": {
+                        "title": "Backend:",
+                        "li1": "Node.js — as a server environment.",
+                        "li2": "Express — to build APIs.",
+                        "li3": "MySQL with mysql2 — for data storage.",
+                        "li4": "JWT — for implementing authentication.",
+                        "li5": "bcrypt — for secure password hashing.",
+                        "li6": "multer — for file uploads handling.",
+                        "li7": "nodemailer — for sending emails.",
+                        "li8": "node-cron — for scheduled tasks.",
+                        "li9": "winston — for logging operations.",
+                        "li10": "dotenv — for managing environment variables."
+                    },
+                    "infrastructure": {
+                        "title": "Infrastructure:",
+                        "li1": "VPS is used to host the application.",
+                        "li2": "Nginx — proxy for traffic routing and HTTPS support.",
+                        "li3": "SSL — HTTPS enabled for secure data transfer."
+                    },
+                    "additionally": {
+                        "text": "🔒 Paid features (tariff payment) are fully implemented and technically ready but disabled at this stage to avoid legal issues."
+                    }
+                }
+            },
+            "blockContent": {
+                "h2": "Contact Me",
+                "p": "Need help managing the site in your user dashboard? Or have suggestions? Write to me, and I will be happy to help you!"
+            },
+            "button": "Contacts"
+        },
+        "contact": {
+            "h1": "Contact me",
+            "h3": "Contact Information",
+            "p": "I am always happy to hear your thoughts! If you have any questions or suggestions, feel free to reach out. I am here to help you with all your inquiries about using this website."
+        },
+        "service": {
+            "title": {
+                "h1": "Service",
+                "h3": "Keep a detailed record of all repairs to your vehicle. Save records of all work done, dates, and expenses. This will help you better understand the history of your vehicle and plan future repairs."
+            },
+            "contentNotUserCar": {
+                "h2": "Log in to your account for access!",
+                "button": "Log in"
+            },
+            "contentUserCar": {
+                "p": "You currently don't have any vehicles! Would you like to add one?",
+                "buttonCancel": "Cancel",
+                "buttonAddCar": "Add a vehicle",
+                "listUserCars": {
+                    "setMessage": "Search field cannot be empty.",
+                    "setMessageNotFound": "The specified VIN, HIN, or serial number is not in the list.",
+                    "unknown": "Unknown type.",
+                    "p": "Add a maintenance record",
+                    "button": "Search",
+                    "buttonOpen": "Collapse",
+                    "buttonClose": "Expand",
+                    "buttonDelete": "Delete",
+                    "typeNames": {
+                        "bicycle": "Bicycles",
+                        "scooter": "Scooters",
+                        "motorcycle": "Motorcycles",
+                        "atv": "ATVs",
+                        "snowmobile": "Snowmobiles",
+                        "car": "Cars",
+                        "truck": "Trucks",
+                        "bus": "Buses",
+                        "boat": "Boats",
+                        "jet_ski": "Jet Skis",
+                        "yacht": "Yachts",
+                        "other": "Other"
+                    },
+                    "removedCount": {
+                        "0": "You have hidden",
+                        "1": "vehicle. It will become available once you return to the corresponding tariff.",
+                        "234": "vehicles. They will become available once you return to the corresponding tariff.",
+                        "all": "vehicles. They will become available once you return to the corresponding tariff."
+                    },
+                    "userNotesCar": {
+                        "p": "Add or edit notes",
+                        "label": "Note text:",
+                        "createButton": "Create"
+                    }
+                }
+            },
+            "vehicle": {
+                "title": "Repair History",
+                "thead": {
+                    "th": "Service Name",
+                    "th2": "Price",
+                    "th3": "Actions"
+                },
+                "tbody": {
+                    "buttonDelete": "Delete",
+                    "buttonChange": "Update",
+                    "totalCosts": "Total Cost"
+                },
+                "messageNotHistory": "No records yet for this vehicle."
+            }
+        },
+        "login": {
+            "h1": "Login or Register",
+            "buttonLogin": "Login",
+            "buttonRegistration": "Register",
+            "messageSuccsess": "Your account has been successfully created!",
+            "privacyPolicy": {
+                "h1": "Privacy Policy",
+                "button": "Return to Registration",
+                "update": "Last update:"
+            },
+            "termsOfService": {
+                "h1": "Terms and Conditions of Use"
+            }
+        },
+        "userDashboard": {
+            "h1": "Your profile",
+            "h4": "Your Vehicles:",
+            "tariff": "Your Tariff:",
+            "blockUser": {
+                "orderTariff": "You ordered the tariff:",
+                "importantWaiting": "The tariff will be activated within 24 hours after payment!",
+                "period": "Validity period:",
+                "start": "from",
+                "end": "to",
+                "infoCompleteTariff": "After the tariff period expires, you will be able to reorder this tariff or order another one.",
+                "status": {
+                    "text": "Order status:",
+                    "processing": "Awaiting payment",
+                    "confirmed": "Payment received, awaiting activation"
+                }
+            },
+            "button": {
+                "cancel": "Back",
+                "changeProfile": "Edit Profile",
+                "changePassword": "Change password",
+                "delete": "Delete Profile",
+                "changeTariff": "Change Tariff",
+                "out": "Logout",
+                "order": "Your order"
+            },
+            "order": {
+                "blockTitle": {
+                    "h2": "Order for Tariff Change",
+                    "pTariff": "Active tariff:",
+                    "pChangeTariff": "Ordered tariff:"
+                },
+                "blockPay": {
+                    "elseBasic": {
+                        "h4": "Payment Details"
+                    },
+                    "h4": "Payment Details",
+                    "recipient": "Recipient details:",
+                    "iban": "IBAN:",
+                    "edrpou": "EDRPOU:",
+                    "purpose": "Payment purpose:",
+                    "code": "Your order code:",
+                    "period": "Validity period:",
+                    "amountDue": "Amount due:",
+                    "monthDay": {
+                        "1": "month",
+                        "2": "months",
+                        "5": "months"
+                    }
+                },
+                "blockInfo": {
+                    "row": {
+                        "1": "The order is processed within 24 hours after payment.",
+                        "2": "The tariff plan’s validity period will be displayed in your personal account.",
+                        "3": "After the expiration of the tariff plan, you will be able to renew this tariff plan or choose another one.",
+                        "4": "After the expiration of the paid plan, you will be automatically switched to the free plan. If you have more than one vehicle, only the first one on the list will be active. The rest will not be deleted but will remain blocked until returning to the appropriate plan."
+                    }
+                },
+                "button": "Cancel"
+            }
+        },
+        "admin": {
+            "h1": "Admin Login",
+            "ul": {
+                "li1": "Orders",
+                "li2": "User list",
+                "li3": "Change price",
+                "li4": "Change payment info",
+                "li5": "Change advertising",
+                "li6": "Payment Blocking",
+                "li7": "Statistics",
+                "out": "Log out"
+            },
+            "listUsers": {
+                "id": "ID",
+                "email": "Email",
+                "tariff": "Tariff",
+                "startDate": "Tariff start date",
+                "endDate": "Tariff end date",
+                "numberOfUsers": "Number of users:"
+            },
+            "changeTariff": {
+                "required": "The field must contain a numeric value.",
+                "failed": "Failed to update tariffs.",
+                "success": "Tariff price updated.",
+                "button": "Update tariffs"
+            },
+            "changePayment": {
+                "h5": "Choose a language to update the payment details.",
+                "strongText": {
+                    "text1": "Specify unique details for each language.",
+                    "text2": "The language can be changed through the main switch in the navigation panel."
+                },
+                "lang": "Language selected:",
+                "edrpou": "EDRPOU:",
+                "iban": "IBAN:",
+                "detailPayee": "Payee details:",
+                "purpose": "Payment purpose:",
+                "download": "Loading...",
+                "button": "Confirm changes",
+                "active": "Activate:"
+            },
+            "changeOrder": {
+                "h5": "Tariff Change Requests",
+                "label": "Sort by status:",
+                "option": {
+                    "all": "All",
+                    "processing": "In progress",
+                    "confirmed": "Confirmed",
+                    "completed": "Completed"
+                },
+                "th": {
+                    "1": "List No.",
+                    "2": "User ID",
+                    "3": "Order Code",
+                    "4": "Term (months)",
+                    "5": "Amount Due",
+                    "6": "Tariff Change",
+                    "7": "Status",
+                    "8": "Options"
+                },
+                "notOrder": "There are no orders yet.",
+                "button": "Delete",
+                "managementGuide": {
+                    "status": "Status:",
+                    "options": "Options:",
+                    "delete": "Delete",
+                    "deleteMessage": "- delete the order and revert the user to the standard tariff.",
+                    "li1": " - user has submitted the request, awaiting confirmation.",
+                    "li2": " - user has paid for the tariff, tariff changes will occur automatically.",
+                    "li3": " - manual tariff change."
+                },
+                "handleChangeStatus": {
+                    "sequence": "Please follow the correct sequence of actions: In process → Confirmed → Completed.",
+                    "orderComplete": "The order has already been completed. Further changes are not available."
+                }
+            },
+            "changeAdvertising": {
+                "h5Title": "Title:",
+                "h5Text": "Text:",
+                "label": {
+                    "ua": "Ukr:",
+                    "ru": "Rus:",
+                    "en": "Eng:",
+                    "image": "Image:"
+                },
+                "button": "Update",
+                "banner": "Banner"
+            },
+            "paymentBlockMessage": {
+                "h5": "Change of Payment Blocking Message",
+                "strong": "The message will be displayed if in the payment information: (activation) the checkbox indicating inactivity is unchecked."
+            },
+            "statistics": {
+                "h5": "User Activity",
+                "thead": {
+                    "th1": "Days",
+                    "th2": "Date",
+                    "th3": "Count"
+                }
+            }
+        },
+        "404": {
+            "message": {
+                "text1": "Page not found.",
+                "text2": "This page might have been moved or no longer exists."
+            },
+            "button": "Go to homepage"
+        }
+    },
+    "formContact": {
+        "h2": "Send a message!",
+        "label": {
+            "firstName": "Your first name:",
+            "lastName": "Last name:",
+            "email": "Email:",
+            "textarea": "Message:"
+        },
+        "input": {
+            "required": "Field cannot be empty.",
+            "minLengthFirstName": "Please provide your full first name.",
+            "minLengthLastName": "Please provide your full last name.",
+            "minLengthTextarea": "Please describe your issue or idea in more detail.",
+            "patternFirstName": "First name can only contain letters.",
+            "patternLastName": "Last name can only contain letters.",
+            "patternEmail": "Please enter a valid email address.",
+            "placeholder": "Describe your issue or question here"
+        },
+        "button": "Send",
+        "responseMessage": "Message is being sent..."
+    },
+    "formRegistration": {
+        "blockField": {
+            "label": {
+                "firstName": "F. Name:",
+                "lastName": "L. Name:",
+                "email": "Email:",
+                "phone": "Phone:",
+                "password": "Password:",
+                "newPassword": "New password:",
+                "code": "Confirmation code:"
+            },
+            "input": {
+                "required": "Field cannot be empty.",
+                "firstName": {
+                    "minLength": "Please provide your full first name.",
+                    "pattern": "First name can only contain letters."
+                },
+                "lastName": {
+                    "minLength": "Please provide your full last name.",
+                    "pattern": "Last name can only contain letters."
+                },
+                "email": {
+                    "pattern": "Please enter a valid email address."
+                },
+                "phone": {
+                    "pattern": "Please enter a valid phone number."
+                },
+                "password": {
+                    "minLength": "Password must be at least 8 characters long.",
+                    "pattern": "Password must contain: A-Z, a-z, 0-9, !@#$%^&*() and be at least 8 characters long.",
+                    "validate": "Password must not contain Cyrillic characters."
+                },
+                "confirmationCode": {
+                    "minLength": "The confirmation code consists of 6 characters."
+                }
+            }
+        },
+        "blockPrivacyStyle": {
+            "required": "Please agree to the 'Terms of Service' and 'Privacy Policy' to continue.",
+            "label": "I agree with",
+            "buttonRules": "Terms of Service",
+            "buttonPolicy": "Privacy Policy",
+            "span": "and"
+        },
+        "function": {
+            "statusMessage": "Sending confirmation code to your email.",
+            "errorMessage": "Too many failed attempts, please try again in 20 minutes."
+        }
+    },
+    "formLogin": {
+        "button": "Log in"
+    },
+    "formAddCar": {
+        "label": {
+            "vehicleType": "Vehicle Type:",
+            "brand": "Brand:",
+            "model": "Model:",
+            "year": "Year of Manufacture:",
+            "mileage": "Mileage:",
+            "carType": "Body Type:",
+            "fuelType": "Fuel Type:",
+            "engineVolume": "Engine Volume (L):",
+            "color": "Color:",
+            "vin": "VIN Number:",
+            "serialNumber": "Serial Number:",
+            "hinNumber": "HIN Number:",
+            "image": "Image:"
+        },
+        "input": {
+            "brand": "Brand is required.",
+            "model": "Model is required.",
+            "year": {
+                "required": "Year of manufacture is required.",
+                "pattern": "Year must be in YYYY format.",
+                "validate": "Year cannot be in the future."
+            },
+            "mileage": {
+                "required": "Mileage is required.",
+                "min": "Mileage cannot be negative.",
+                "pattern": "Mileage must be a whole number."
+            },
+            "engineVolume": {
+                "required": "Engine volume is required.",
+                "min": "Engine volume cannot be negative."
+            },
+            "color": {
+                "required": "Color is required.",
+                "minLength": "Color name must be at least 3 characters."
+            },
+            "vin": {
+                "required": "VIN number is required.",
+                "correctLength": "VIN number must contain 17 characters.",
+                "validFormat": "VIN number can only contain uppercase letters (except I, O, Q) and digits."
+            },
+            "serialNumber": {
+                "required": "Serial number is required.",
+                "validate": "Serial number cannot be empty."
+            },
+            "hinNumber": {
+                "required": "HIN number is required.",
+                "correctLength": "HIN number must be 12 characters long.",
+                "validFormat": "HIN number must contain only uppercase letters and digits."
+            },
+            "image": {
+                "required": "Please select a photo of your vehicle.",
+                "maxSize": "The file size must not exceed 256 KB.",
+                "invalidFormat": "Invalid file format. Only .jpeg, .png, .gif are allowed."
+            }
+        },
+        "select": {
+            "vehicleType": {
+                "required": "Vehicle type is required.",
+                "choiceOption": "Select vehicle type",
+                "optgroupOne": "Land Vehicles",
+                "optgroupTwo": "Water Vehicles",
+                "optgroupThree": "Other Vehicles",
+                "option": {
+                    "bicycle": "Bicycle",
+                    "scooter": "Scooter",
+                    "motorcycle": "Motorcycle",
+                    "atv": "ATV",
+                    "snowmobile": "Snowmobile",
+                    "car": "Car",
+                    "truck": "Truck",
+                    "bus": "Bus",
+                    "boat": "Boat",
+                    "jet_ski": "Jet Ski",
+                    "yacht": "Yacht",
+                    "other": "Other"
+                }
+            },
+            "carType": {
+                "required": "Body type is required.",
+                "choiceOption": "Select body type",
+                "option": {
+                    "sedan": "Sedan",
+                    "hatchback": "Hatchback",
+                    "wagon": "Wagon",
+                    "coupe": "Coupe",
+                    "convertible": "Convertible",
+                    "suv": "SUV",
+                    "minivan": "Minivan",
+                    "crossover": "Crossover",
+                    "roadster": "Roadster",
+                    "pickup": "Pickup",
+                    "flatbed": "Flatbed",
+                    "van": "Van",
+                    "tipper": "Tipper",
+                    "city": "City Bus",
+                    "coach": "Coach Bus",
+                    "minibus": "Minibus",
+                    "cruiser": "Cruiser",
+                    "sport": "Sport",
+                    "touring": "Touring",
+                    "dirt": "Dirt"
+                }
+            },
+            "fuelType": {
+                "required": "Fuel type is required.",
+                "choiceOption": "Select fuel type",
+                "option": {
+                    "petrol": "Petrol",
+                    "diesel": "Diesel",
+                    "electric": "Electric",
+                    "hybrid": "Hybrid",
+                    "gas": "Gas",
+                    "hydrogen": "Hydrogen"
+                }
+            },
+            "mileage": {
+                "km": "Kilometers",
+                "miles": "Miles",
+                "hours": "Engine hours"
+            }
+        },
+        "button": {
+            "image": "Done"
+        },
+        "props": {
+            "nameInput": "Choose a file",
+            "nameNotFile": "No file selected"
+        }
+    },
+    "formChangeProfile": {
+        "h2": "Edit Personal Information",
+        "label": {
+            "image": "Image:"
+        },
+        "button": "Save"
+    },
+    "FormChangePassword": {
+        "label": {
+            "passwordCurrent": "Current password:",
+            "passwordConfirm": "Repeat password:"
+        }
+    },
+    "FormChangeTariff": {
+        "h2": "Change Tariff",
+        "blockTextStyle": {
+            "h4": "Your Tariff:",
+            "free": "free",
+            "p": {
+                "tariffWord": "Tariff",
+                "price": "Price:",
+                "basic": {
+                    "tariff": "Basic",
+                    "text": "set by default, provides access to the basic system features, allowing you to create a record for one vehicle. This is an optimal choice for users who need basic functionality without extra charges."
+                },
+                "family": {
+                    "tariff": "Family",
+                    "text": "perfect for a family — allows you to create records for up to 5 vehicles. You get access to basic statistics and reports, helping you stay on top of your family's vehicle status, and enjoy ad-free access."
+                },
+                "business": {
+                    "tariff": "Business",
+                    "text": "The 'Business' tariff provides unlimited possibilities: keep records for any number of vehicles, use all platform features, get advanced statistics for effective management, and enjoy priority support for quick issue resolution. Additionally, you will have ad-free access."
+                }
+            }
+        },
+        "blockFieldStyle": {
+            "label": {
+                "tariff": "Choose a tariff plan:",
+                "paymentMonths": "Term:"
+            },
+            "optionMonths": {
+                "1": "1 month",
+                "2": "2 months",
+                "3": "3 months",
+                "4": "4 months",
+                "5": "5 months",
+                "6": "6 months",
+                "7": "7 months",
+                "8": "8 months",
+                "9": "9 months",
+                "10": "10 months",
+                "11": "11 months",
+                "12": "12 months"
+            }
+        },
+        "button": "Select"
+    },
+    "formAdminPanel": {
+        "button": "Login to Admin Panel"
+    },
+    "formDeleteUser": {
+        "catch": "An error occurred while performing the operation.",
+        "h2": "Profile Deletion",
+        "h4": "Attention!",
+        "text": "If you want to delete all your data from the site, we offer this option. Please note: if you click 'Confirm', all your information, including vehicle data, will be permanently deleted and will no longer be available in the future. If you have a paid tariff, the money will not be refunded for unused days. Data recovery is not possible. Be careful!",
+        "button": "Confirm"
+    },
+    "formAddServiceRecord": {
+        "mileage": {
+            "placeholder": "Mileage or engine hours",
+            "placeholder2": "Year",
+            "placeholder3": "Year, mileage, hours",
+            "required": "Fill in all fields."
+        },
+        "operationName": "Serviceable name",
+        "partName": "Part name and code",
+        "price": "Work cost",
+        "button": "Add record",
+        "buttonChange": "Update",
+        "buttonCancel": "Cancel"
+    },
+    "cardInfoPay": {
+        "button": "Choose",
+        "buttonActive": "Active",
+        "spanNotActive": "Inactive"
+    },
+    "api": {
+        "sendConfirmationCode": {
+            "emailAlready": "This email is already registered.",
+            "unableSendCode": "Unable to send the confirmation code. Please try again later.",
+            "successSent": "Confirmation code sent."
+        },
+        "validateConfirmationCode": {
+            "notThisEmail": "The code was sent to a different email.",
+            "incorrectCode": "Incorrect confirmation code.",
+            "successSent": "You have successfully confirmed your email."
+        },
+        "registrationUser": {
+            "insideError": "Internal server error. Please try again later.",
+            "userAlready": "A user with this email already exists.",
+            "succsesRegistr": "You have successfully registered!"
+        },
+        "loginUser": {
+            "errorMessage": "Incorrect email or password.",
+            "cannotEmpty": "Please fill in all fields.",
+            "errorServer": "Server error when searching for user.",
+            "403": "Your account has been locked for 15 minutes."
+        },
+        "getUserData": {
+            "errorServer": "Server error.",
+            "noUserFound": "User not found."
+        },
+        "changeProfile": {
+            "500": "Server error.",
+            "502": "Server error while processing the image.",
+            "400": "Required fields are not filled.",
+            "404": "User not found.",
+            "413": "File is too large. Maximum size: 256KB.",
+            "422": "Invalid file format. Allowed formats: .jpeg, .png, .gif",
+            "success": "Data successfully updated."
+        },
+        "changePassword": {
+            "409": "New password and password confirmation do not match.",
+            "404": "User not found.",
+            "400": "Current password is incorrect.",
+            "200": "Password successfully changed."
+        },
+        "deleteUser": {
+            "500": "A server error occurred while deleting the user.",
+            "200": "User successfully deleted.",
+            "400": "Incorrect password."
+        }
+    },
+    "tariffApi": {
+        "request": {
+            "500": "Server error.",
+            "400": "User not found.",
+            "success": "Tariff change request successfully created."
+        },
+        "cancel": {
+            "success": "Tariff change request successfully canceled."
+        },
+        "change": {
+            "success": "Tariff successfully changed."
+        },
+        "delete": {
+            "500": "Server error while deleting orders.",
+            "400": "No orders found for deletion.",
+            "200": "Orders successfully deleted."
+        },
+        "status": {
+            "200": "Status successfully changed."
+        }
+    },
+    "priceApi": {
+        "400": "Price must be specified.",
+        "success": "Price successfully updated.",
+        "422": "No tariffs to update."
+    },
+    "paymentApi": {
+        "404": "Data not found.",
+        "success": "Data successfully updated.",
+        "blockStatusMessage": {
+            "get": {
+                "404": "Message not found."
+            },
+            "update": {
+                "404": "Record for update not found.",
+                "success": "Message successfully updated."
+            }
+        }
+    },
+    "carsApi": {
+        "unknownError": "Unknown error.",
+        "409": "VIN code, HIN code, Serial code are unique.",
+        "400": "Required data is missing.",
+        "404": "Vehicle to delete not found.",
+        "message": "Vehicle successfully created.",
+        "messageDelete": "Vehicle deleted."
+    },
+    "vehicleApi": {
+        "500": "Server error.",
+        "400": "Required data is missing.",
+        "unknown": "Unknown error.",
+        "create": {
+            "success": "Record created successfully."
+        },
+        "update": {
+            "success": "Record updated successfully."
+        },
+        "delete": {
+            "success": "Record deleted successfully.",
+            "404": "Record not found.",
+            "400": "Record ID for deletion is not specified."
+        },
+        "get": {
+            "400": "Vehicle ID is not specified."
+        }
+    },
+    "sendMessageApi": {
+        "200": "Message successfully sent.",
+        "sendError": "Error sending message."
+    },
+    "adminApi": {
+        "login": {
+            "400": "Please fill in all fields.",
+            "401": "Invalid email or password.",
+            "500": "Server error while searching for administrator."
+        },
+        "userList": {
+            "500": "Server error while fetching users."
+        }
+    },
+    "advertisingApi": {
+        "400": "Unknown or missing language.",
+        "404": "No records found for this language.",
+        "update": {
+            "400": "Data for update has incorrect format.",
+            "200": "Data successfully updated."
+        }
+    },
+    "postsApi": {
+        "400": "User Id is missing or invalid.",
+        "422": "The note text cannot exceed 350 characters."
+    },
+    "statisticsApi": {
+        "get": {
+            "500": "Server error while retrieving statistics."
+        },
+        "set": {
+            "500": "Server error while updating statistics.",
+            "success": "Statistics counter updated successfully."
+        }
+    },
+    "helmet": {
+        "home": {
+            "title": "MY-CAR – Track expenses, maintenance, and repairs for your car",
+            "description": "Keep track of maintenance, repairs, and car expenses with MY-CAR! Plan servicing and monitor the technical condition of your vehicle online.",
+            "keywords": "MY-CAR vehicle tracking, personal car records, car service history, vehicle maintenance tracking, service planning, repair expense tracking"
+        },
+        "service": {
+            "title": "Our Services – MY-CAR",
+            "description": "Discover our services: car tracking, service planning, and expense control.",
+            "keywords": "MY-CAR services, expense tracking, service planning, maintenance management"
+        },
+        "contact": {
+            "title": "Contact Us – Get in Touch with MY-CAR",
+            "description": "Get in touch with us for support or partnership opportunities. We are always ready to help!",
+            "keywords": "MY-CAR contacts, customer support, get in touch with MY-CAR"
+        },
+        "about": {
+            "title": "About Us – Learn More About MY-CAR",
+            "description": "Learn more about MY-CAR: our mission, goals, and how we help car owners track their vehicles, control expenses, and manage maintenance.",
+            "keywords": "about MY-CAR, MY-CAR history, MY-CAR mission"
+        }
+    }
+}

@@ -1,0 +1,160 @@
+{
+  "lastUpdate": "[16.01.2025 12:00]",
+  "sections": [
+    {
+      "title": "General Terms",
+      "content": [
+        "These terms and conditions (hereinafter \"Terms\") govern the use of the website, created as a demonstration project for a portfolio.",
+        "Using the site implies full and unconditional acceptance of these Terms. If you disagree with the Terms, cease using the website.",
+        "The site allows registered users (\"Users\") to keep track of information about their vehicles in the \"Service\" section.",
+        "The Administrator reserves the right to modify these Terms. The updated version of the Terms will be published on the website with the date and time of the last update. Users are encouraged to regularly review this page for any changes. Continued use of the website after changes are published means acceptance of the updated Terms."
+      ]
+    },
+    {
+      "title": "Registration",
+      "content": [
+        "To access the site's features, you must register by filling out the following fields:",
+        {
+          "list": [
+            "First name",
+            "Last name",
+            "Email address",
+            "Password"
+          ]
+        },
+        "The user is responsible for maintaining the confidentiality of their login credentials.",
+        "Passwords are encrypted before being stored on the server to ensure data security.",
+        "If unauthorized access to an account is detected, the user must immediately notify the Administrator.",
+        "By registering, the user confirms they are at least 18 years old."
+      ]
+    },
+    {
+      "title": "Parties",
+      "content": [
+        "\"Administrator\" — the entity responsible for managing the website.",
+        "\"User\" — the individual who registers on the site and uses its features."
+      ]
+    },
+    {
+      "title": "Payment and Refund Policy",
+      "content": [
+        "The website does not accept payments for premium plans, as they are demonstration-only.",
+        "All premium plans are marked as \"inactive\" and cannot be purchased."
+      ]
+    },
+    {
+      "title": "Tariff Plans and Limitations",
+      "content": [
+        "The website offers three tariff plans:",
+        {
+          "list": [
+            "Free: allows creating entries for only one vehicle.",
+            "Family (demonstration): allows creating entries for up to 5 vehicles.",
+            "Business (demonstration): allows creating entries for an unlimited number of vehicles."
+          ]
+        },
+        "All premium plans are marked as \"inactive\" and are unavailable for purchase."
+      ]
+    },
+    {
+      "title": "Website Usage",
+      "content": [
+        "The user agrees to provide accurate information during registration. Since the website is a demonstration project, data is not processed for purposes other than profile creation. The Administration has access only to the email address for managing plans and other administrative needs. Other user data may be accessed by the Administration in case of technical issues to ensure the website’s functionality or to fix errors, but it will not be used for other purposes.",
+        "After registration, the user can add information about their vehicles in the 'Service' section. This data may include:",
+        {
+          "list": [
+            "Vehicle make and model;",
+            "VIN code, HIN code, serial number;",
+            "Color, year of manufacture, engine capacity, fuel type;",
+            "Mileage, repair and maintenance history;",
+            "Other notes related to the vehicle."
+          ],
+          "nextPartText": " This data is stored in the website database and is accessible only to the user. The Administration does not use this data except for technical maintenance."
+        },
+        "The user agrees that the Administration has the right to process and store personal data solely for website functionality, including:",
+        {
+          "list": [
+            "Managing plans;",
+            "Providing technical support;",
+            "Ensuring data security and website operation."
+          ]
+        },
+        "All user data is stored until the profile is deleted or the website is closed.",
+        "The user has the right to use the website solely for personal vehicle records. It is prohibited to:",
+        {
+          "list": [
+            "Post false, offensive, or illegal information on the website;",
+            "Use the website for any purposes contrary to applicable laws;",
+            "Attempt unauthorized access to other users' data or website systems;",
+            "Use automated tools (e.g., web scrapers, bots) to access the website, collect data, or perform any actions without the written consent of the Administration."
+          ]
+        },
+        "The Administration has the right to temporarily or permanently restrict user access to the website or delete their account in case of violations of these Terms, including but not limited to improper use of the website, security breaches, abuse of website functions, or other unacceptable actions."
+      ]
+    },
+    {
+      "title": "As Is",
+      "content": [
+        "The website is provided 'as is,' without any guarantees or obligations.",
+        "The Administrator does not guarantee uninterrupted operation of the website, data preservation, or error-free performance."
+      ]
+    },
+    {
+      "title": "Liability",
+      "content": [
+        "Advertising banners are demonstrational and do not belong to third parties.",
+        "Users use the website at their own risk.",
+        "Users are responsible for maintaining the confidentiality of their login information.",
+        "The Administrator is not responsible for data loss, website errors, or any other damages.",
+        "The Administration is not responsible for user data loss if the user deletes their profile themselves.",
+        "The Administration is not responsible for user data loss if the website is closed or deleted, as the website is a demonstration project and users do not have active paid subscriptions.",
+        "The Administration does not guarantee uninterrupted access to the website and reserves the right to terminate its operation or close the website without notice at any time.",
+        "The Administration is not responsible for the accuracy of information entered by users or for any damages caused by using the website.",
+        "The Administration has the right to temporarily or permanently restrict user access to the website in case of violations of these Terms."
+      ]
+    },
+    {
+      "title": "Termination of Use",
+      "content": [
+        "The user has the right to stop using the website at any time.",
+        "The user can delete their profile in the account settings.",
+        {
+          "list": [
+            "After deleting the profile, all user data, including vehicle information, will be permanently and irreversibly deleted from the database.",
+            "Deleted data cannot be restored."
+          ]
+        },
+        "The Administration has the right to block user access in case of violations of these Terms."
+      ]
+    },
+    {
+      "title": "Data Backup",
+      "content": [
+        "The Administration does not perform automatic or manual backups of user data.",
+        "The Administration does not provide tools for exporting or downloading user data from the website. All data is stored exclusively on the website’s server for the duration of the user's account activity.",
+        "The Administration is not responsible for user data loss in case of website deletion or cessation of operation. Users should take measures to save their data.",
+        "Users acknowledge that all data may be lost without the possibility of recovery."
+      ]
+    },
+    {
+      "title": "License Terms",
+      "content": [
+        "All content on the website (including code, text, design, graphics, and other materials) is the property of the Administration and is protected by intellectual property laws, except for user-uploaded content.",
+        "Users are not allowed to copy, modify, publish, or distribute website content without the consent of the Administration."
+      ]
+    },
+    {
+      "title": "Intellectual Property Rights",
+      "content": [
+        "Users retain ownership of the content they upload to the website.",
+        "At the same time, they grant the Administration a limited license to process this content to perform website functions (e.g., saving data in the database)."
+      ]
+    },
+    {
+      "title": "Feedback Mechanism",
+      "content": [
+        "For questions or inquiries related to these Terms, users can use the contact form in the 'Contacts' section on the website."
+      ]
+    }
+  ]
+}

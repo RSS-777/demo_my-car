@@ -1,12 +1,12 @@
-# 🚗 MY-CAR — Online Vehicle Maintenance Tracker
+#  MY-CAR — Online Vehicle Maintenance Tracker
 
-**MY-CAR** is a convenient web application for managing your car's maintenance and repair history. It’s a demo project for my portfolio, fully built from scratch with both frontend and backend components, including admin management tools.
+**MY-CAR** is a convenient web application for managing your car's maintenance and repair history. This repository contains a public demo version of the project for portfolio purposes, with all sensitive data and private code removed. The full, live application is accessible online.
 
 ---
 
-## 🔗 Demo
+## 🔗 Live Site
 
-Live demo: **[https://my-car.if.ua](https://my-car.if.ua)**  
+The full, live application is accessible here: **[https://my-car.if.ua](https://my-car.if.ua)**  
 
 ---
 
@@ -66,4 +66,22 @@ Payment and tariff switching logic is fully implemented, but disabled in the cur
 
 ---
 
-> **Note**: This repository is private. If you're interested in the technical implementation or potential collaboration — feel free to contact me.
+> **Note**: This repository contains a public demo version of the project. All sensitive data and code not intended for public access have been removed. You can review the structure and implementation of features without any risk of accessing private information.
+
+---
+
+### Screenshot
+<div style="display: flex; flex-direction: column; gap: 5px">
+    <div style="display: flex; gap: 5px">
+        <img src="./screenshots/1.jpg" width="45%">
+        <img src="./screenshots/2.jpg" width="45%" >
+    </div>
+    <div style="display: flex; gap: 5px">
+        <img src="./screenshots/3.jpg" width="45%" >
+        <img src="./screenshots/4.jpg" width="45%" >
+    </div>
+    <div style="display: flex; gap: 5px">
+        <img src="./screenshots/5.jpg" width="45%">
+        <img src="./screenshots/6.jpg" width="45%">
+    </div>
+</div>
