@@ -70,7 +70,7 @@ Payment and tariff switching logic is fully implemented, but disabled in the cur
 
 ---
 
-### Screenshot
+### Screenshots
 <div style="display: flex; flex-direction: column; gap: 5px">
     <div style="display: flex; gap: 5px">
         <img src="./screenshots/1.jpg" width="45%">
