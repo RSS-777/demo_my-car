@@ -1,0 +1,88 @@
+{
+  "lastUpdate": "[16.01.2025 12:00]",
+  "sections": [
+    {
+      "title": "General Provisions",
+      "content": [
+        "This Privacy Policy (\"Policy\") describes how we collect, use, and protect users' personal data.",
+        "By registering on the Website, the user agrees to this Privacy Policy and consents to the processing of their personal data in accordance with this Policy.",
+        "The Website displays advertising banners that are demonstrative and do not belong to third parties. They are used solely to showcase the functionality of advertisements and do not represent real ads."
+      ]
+    },
+    {
+      "title": "Data We Collect",
+      "content": [
+        "We collect the following data during registration:",
+        {
+          "list": [
+            "First name;",
+            "Last name;",
+            "Email address;",
+            "Password."
+          ]
+        },
+        "When using the Website's functionality, the user may enter information about their vehicles, such as:",
+        {
+          "list": [
+            "Make and model;",
+            "VIN code, HIN code, serial number;",
+            "Color, year of manufacture, engine capacity, fuel type;",
+            "Mileage, repair history, and technical maintenance records;",
+            "Other notes related to the vehicle."
+          ]
+        },
+        "All user data, including registration data and vehicle information, is stored in a database located on a secure server rented by the Administration."
+      ]
+    },
+    {
+      "title": "Purpose of Data Use",
+      "content": [
+        "Personal data is collected to ensure the Website's functionality, specifically for:",
+        {
+          "list": [
+            "User registration and authentication;",
+            "Saving and processing information about users' vehicles (make, model, VIN, etc.);",
+            "Managing user plans;",
+            "Providing access to personalized services such as records of technical maintenance, repairs, and other services."
+          ]
+        },
+        "Data is not shared with third parties without the user's consent, except as required by Ukrainian law, such as requests from government authorities.",
+        "Personal data is stored only for as long as necessary to ensure the Website's functionality and will be deleted after the account is deleted or the Website is closed, except as required by Ukrainian law."
+      ]
+    },
+    {
+      "title": "Data Protection",
+      "content": [
+        "We implement appropriate technical and organizational measures to protect users' personal data.",
+        "We use encryption to protect users' passwords when stored in our database. This means that even in the event of unauthorized access to our servers, passwords cannot be read. However, despite the security measures taken, we cannot guarantee complete data security in the event of technical failures or unauthorized access.",
+        "The Website does not automatically create backups of user data. Users are responsible for creating their own backups of important data."
+      ]
+    },
+    {
+      "title": "Third Parties",
+      "content": [
+        "We do not share personal data with third parties, except as required by Ukrainian law."
+      ]
+    },
+    {
+      "title": "User Rights",
+      "content": [
+        "The user has the right to:",
+        {
+          "list": [
+            "Know what data is collected;",
+            "Edit their personal data independently through account settings, except for the email address, which cannot be changed to ensure account security;",
+            "Delete their account independently through account settings. After deletion, all data, including registration information and vehicle data, will be permanently and irreversibly deleted;",
+            "Withdraw consent to the processing of their personal data by deleting their account."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Changes to the Policy",
+      "content": [
+        "We reserve the right to amend this Policy. In the event of changes, the updated Policy will be published on the Website with the date of the amendments indicated. The time and date of publication of the changes will be specified."
+      ]
+    }
+  ]
+}
